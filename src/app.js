@@ -37,7 +37,7 @@ app.use(express.static(__dirname + '/public'));
 
 // 	var options = {
 //                 //see the Authentication API's Post Access Token method for more information
-// 		url: 'https://api.tdameritrade.com/v1/accounts/787237720/transactions',
+// 		url: 'https://api.tdameritrade.com/v1/accounts//transactions',
 // 		method: 'GET',
 // 		headers: headers,
 //                 //POST Body params
@@ -121,11 +121,11 @@ app.use(express.static(__dirname + '/public'));
 	
 	// pool.query('SELECT * FROM Tokens', function(err, rows, fields) {
 	// 	if (rows === null || rows === undefined) {
-	// 		pool.query("INSERT INTO Tokens SET RefreshToken", ["Bro"], function (error, rows, fields) {
+	// 		pool.query("INSERT INTO Tokens SET RefreshToken", ["Bar"], function (error, rows, fields) {
 	// 			if (error) throw error;
 	// 		});
 	// 	} else {
-	// 		pool.query("UPDATE Tokens SET RccessToken", ["Bro"], function (error, rows, fields) {
+	// 		pool.query("UPDATE Tokens SET RccessToken", ["Bar"], function (error, rows, fields) {
 	// 			if (error) throw error;
 	// 		});
 	// 	}
@@ -145,7 +145,7 @@ app.use(express.static(__dirname + '/public'));
 // 	}
 
 // 	var options = {
-// 		url: 'https://api.tdameritrade.com/v1/accounts/787237720/orders?fromEnteredTime=2018-02-01&toEnteredTime=2018-03-24&status=FILLED',
+// 		url: 'https://api.tdameritrade.com/v1/accounts//orders?fromEnteredTime=2018-02-01&toEnteredTime=2018-03-24&status=FILLED',
 // 		method: 'GET',
 // 		headers: headers,
 //                 //POST Body params
@@ -192,7 +192,7 @@ app.use(express.static(__dirname + '/public'));
 // 			}
 
 // 			var options = {
-// 				url: 'https://api.tdameritrade.com/v1/accounts/787237720/orders?fromEnteredTime=2017-02-01&toEnteredTime=2018-03-31&status=FILLED',
+// 				url: 'https://api.tdameritrade.com/v1/accounts//orders?fromEnteredTime=2017-02-01&toEnteredTime=2018-03-31&status=FILLED',
 // 				method: 'GET',
 // 				headers: headers,
 // 						//POST Body params
@@ -303,7 +303,7 @@ app.use(express.static(__dirname + '/public'));
 // 			}
 
 // 			var options = {
-// 				url: 'https://api.tdameritrade.com/v1/accounts/787237720/transactions',
+// 				url: 'https://api.tdameritrade.com/v1/accounts//transactions',
 // 				method: 'GET',
 // 				headers: headers,
 // 				query: {
