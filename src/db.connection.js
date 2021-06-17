@@ -5,8 +5,8 @@ module.exports = (function() {
         connectionLimit: 10,
         host    : 'localhost',
         port    : '8889',
-        user    : 'root',
-        password : 'root',
+        user    : '',
+        password : '',
         database : 'trading'
     });
 
