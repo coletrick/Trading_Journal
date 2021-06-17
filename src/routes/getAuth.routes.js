@@ -21,7 +21,7 @@ module.exports = function(router) {
                 // 'refresh_token': `${authToken.access_token}`,
                 'access_type': 'offline',
                 'code': req.query.code,
-                'client_id': 'golfer2@AMER.OAUTHAP',
+                'client_id': '',
                 'redirect_uri': 'https://localhost:8000/auth'
             }
         }
@@ -72,7 +72,7 @@ module.exports = function(router) {
                 form: {
                     'grant_type': 'refresh_token',
                     'refresh_token': rows[0].RefreshToken,
-                    'client_id': 'golfer2@AMER.OAUTHAP',
+                    'client_id': '',
                 }
             }
                 
@@ -125,4 +125,3 @@ module.exports = function(router) {
 
 
 
-//https://auth.tdameritrade.com/auth?response_type=code&redirect_uri=https://localhost:8000/auth&client_id=golfer2@AMER.OAUTHAP
