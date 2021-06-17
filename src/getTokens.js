@@ -22,7 +22,7 @@ app.get('/', function(req, res){
             // 'refresh_token': `${authToken.access_token}`,
 			'access_type': 'offline',
 			'code': req.query.code, //get the code
-			'client_id': 'golfer12@AMER.OAUTHAP',
+			'client_id': '',
 			'redirect_uri': 'https://localhost:8000'
 		}
 	}
